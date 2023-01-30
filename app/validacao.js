@@ -20,9 +20,9 @@ function verificaSeChuteVerdadeiro(chute){
         <button id="botao" class="btn-botao">Jogar Novamente</button>
         `
     } else if(numero > numeroSecreto){
-        elementoChute.innerHTML += `<div>O número secreto é menor <i class="fa-solid fa-arrow-down-long"></i></div>`
+        elementoChute.innerHTML += `<div>Tente de novo, você pode estar próximo, o número sorteado é menor <i class="fa-solid fa-arrow-down-long"></i></div>`
     } else {
-        elementoChute.innerHTML += `<div>O número secreto é maior <i class="fa-solid fa-arrow-up-long"></i></div>`
+        elementoChute.innerHTML += `<div>Tente de novo, você pode estar próximo, número sorteado é maior <i class="fa-solid fa-arrow-up-long"></i></div>`
     }
 }
 
